@@ -892,7 +892,7 @@ function Library:MakeWindow(WindowConfig)
 
 	WindowConfig = WindowConfig or {}
 
-	WindowConfig.Name = WindowConfig.Name or "KanistayHub"
+	WindowConfig.Name = WindowConfig.Name or "LumaCore"
 
 	WindowConfig.ConfigFolder = WindowConfig.ConfigFolder or WindowConfig.Name
 
@@ -908,7 +908,7 @@ function Library:MakeWindow(WindowConfig)
 
 	WindowConfig.IntroToggleIcon = WindowConfig.IntroToggleIcon or "rbxassetid://8834748103"
 
-	WindowConfig.IntroText = WindowConfig.IntroText or "Setting Up KanistayHub"
+	WindowConfig.IntroText = WindowConfig.IntroText or "Setting Up LumaCore"
 
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 
@@ -1112,7 +1112,7 @@ function Library:MakeWindow(WindowConfig)
 
 			}),
 
-			AddThemeObject(SetProps(MakeElement("Label", "KansitayHub", WindowConfig.HidePremium and 14 or 13), {
+			AddThemeObject(SetProps(MakeElement("Label", "LumaCore", WindowConfig.HidePremium and 14 or 13), {
 
 				Size = UDim2.new(1, -60, 0, 13),
 
@@ -1124,7 +1124,7 @@ function Library:MakeWindow(WindowConfig)
 
 			}), "Text"),
 
-			AddThemeObject(SetProps(MakeElement("Label", "Future of Exploits", 12), {
+			AddThemeObject(SetProps(MakeElement("Label", "Future of Scripts", 12), {
 
 				Size = UDim2.new(1, -60, 0, 12),
 
@@ -1415,7 +1415,7 @@ end)
 
 			"Downloading",
 
-			"Connect to KanistayServer", 
+			"Connect to LumaCore...", 
 
 			"Starting UI"
 
